@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list properties</title>
+    <style>
+        .fruits{
+            /* list-style-type: disc; */
+            /* list-style-type:circle; */
+            /* list-style-type: square; */
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .fruits li{
+            margin-top: 1rem;
+            font-size: 1rem;
+            text-transform: capitalize;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        .fruits .apple{
+            background-image: linear-gradient(red,blue);
+          
+        }
+        .fruits .pineapple{
+            background-image: radial-gradient(orange,blue,green,red);
+          
+        }
+        ul .pawpaw{
+            background-image: conic-gradient(red,blue,cyan,green,orange);
+        }
+        .school{
+            /* list-style-position: inside; */
+            list-style-position: outside;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>names of fruits</h1>
+    <ul class="fruits">
+        <li class="apple">apple</li>
+        <li class="pineapple">pineapple</li>
+        <li class="pawpaw">pawpaw</li>
+        <li class="pawpaw">cherry</li>
+        <li class="pawpaw">watermelon</li>
+    </ul>
+
+    <ul class="school">
+        <li>SSS</li>
+        <li>LPSSS</li>
+        <li>League</li>
+    </ul>
+</body>
+</html>

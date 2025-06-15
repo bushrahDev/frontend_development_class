@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+     <style>
+       *{
+        padding: 0;
+        margin: 0;
+    }
+          .sultan{
+            width:1200px;
+             color: white;
+             padding-inline: 2rem;
+        padding-top: 12rem;
+        height: 1200px; 
+        background-image: linear-gradient(to top right,orange,red, purple);
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-transform: capitalize;
+       text-align: center;
+       font-weight: 600;
+       font-size: 2rem;
+      
+      
+         
+        }
+       .sultan img{
+            width: 90px;
+            height:90px;
+            border-radius: 50%;
+            border:5px solid white;
+           margin-top: 3rem;
+           
+            
+        }
+       
+        
+        .sultan .meet{
+            text-transform: capitalize;
+            text-align: center;
+              background-image: conic-gradient(teal);
+            color:transparent;
+            background-clip: text;
+            font-size: 4rem;
+           
+        }
+        .sultan .p{
+           color: white;
+           font-weight: 100;
+           font-size: 20px;
+          max-width: 500px;
+           padding-inline: 300px;
+        
+          
+        }
+        .sultan .name{
+            color: white;
+            font-weight: 100;
+            font-size: 50px;
+            margin-bottom:1rem ;
+           
+        }
+        .up{
+            padding:5px 60px 5px 70px;
+            background: linear-gradient(to left ,cyan ,white );
+            margin-top: 3rem;
+        }
+        
+      
+            /* correction */
+        #section1{
+            /* min-height: 500px; */
+            /* padding-block: 6rem; */
+            padding:6rem 2rem ;
+            background-image: linear-gradient(to top right,orange,purple);
+        }
+
+        #section1 h1{
+            text-align: center;
+            text-transform: capitalize;
+            color: transparent;
+            font-size: 2.8rem;
+            background-image: linear-gradient(cyan,teal);
+            background-clip: text;
+
+        }
+
+        .boxes{
+            display: flex;
+            justify-content: center;
+            gap: 6rem;
+            margin-top: 2.7rem;
+        }
+        .box{
+            flex-basis: 25%;
+            text-align: center;
+            color: white;
+            
+        }
+
+
+        
+        .boxes .box img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 4px solid white;
+            display: block;
+            margin-inline: auto;
+        }
+        .boxes .box h2{
+            margin-block:0.5rem ;
+            text-transform: capitalize;
+        }
+        #section1 button{
+           width: 30%;
+           padding-block: 0.8rem;
+           border: none;
+           color: white;
+           text-transform: capitalize;
+           font-size: 1rem;
+           border-radius: 3px;
+           background-image: linear-gradient(to left,cyan,teal);
+           text-align: center;
+           display: block;
+           margin-inline: auto;
+           margin-top: 3rem;
+
+           
+        }
+
+
+
+
+        
+        
+         
+       
+       
+        
+
+      
+       
+        
+          
+        
+        
+           
+           
+        
+       
+
+       
+     </style>
+</head>
+<body>
+
+
+    <section id="section1">
+            <h1>meet our instructors</h1>
+            <div class="boxes">
+                <div class="box">
+                    <img src="../images/mini_girl.jpg" alt="">
+                    <h2>sultan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore nobis vero sed animi! Incidunt?</p>
+                </div>
+                <div class="box">
+                    <img src="../images/mini_girl.jpg" alt="">
+                    <h2>sultan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore nobis vero sed animi! Incidunt?</p>
+                </div>
+                <div class="box">
+                    <img src="../images/mini_girl.jpg" alt="">
+                    <h2>sultan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore nobis vero sed animi! Incidunt?</p>
+                </div>
+            </div>
+            <button>sign up</button>
+    </section>
+   
+    <div class="sultan">
+        <h1 class="meet">meet our instructors</h1>
+        <img src="../images/mini_girl.jpg">
+        <h1 class="name">sultan</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Facere dolore tempore nobis ullam,  Lorem ipsum dolor sit.
+             Exercitationem, in!molestias consequatur!</p>
+             <div class="sultan2">
+        <img src="../images/mini_girl.jpg">
+        <h1 class="name">bushirah</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Facere dolore tempore nobis ullam,  Lorem ipsum dolor sit.
+             Exercitationem, in!molestias consequatur!</p>
+ <div class="sultan3">
+        <img src="../images/mini_girl.jpg">
+        <h1 class="name">ismail</h1>
+        <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Facere dolore tempore nobis ullam,  Lorem ipsum dolor sit.
+             Exercitationem, in!molestias consequatur!</p>
+             <div class="sultan4">
+                <button class="up">sign up</button>
+             </div>
+
+   
+
+    </div>
+</body>
+</html> 

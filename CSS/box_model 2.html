@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+   <style>
+    #container{
+        background-color: red;
+        /* height: 400px; */
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 200px;
+    }
+    #box{
+        background-color: cyan;
+        width: max-content;
+        /*
+        when all sides have the same padding(space)
+         padding: 2rem ; 
+         
+         */
+
+         /* 
+            using 2 padding
+            1:top
+            2:bottom;
+         padding: 2rem 1rem ; 
+         */
+
+         /* 
+         using 3 padding
+         1:top: 
+         2:left and right 
+         3:botttom
+         padding: 1rem 4rem 2rem;
+         
+         */
+         padding: 1rem 4rem 2rem;
+
+
+         /* padding: 1rem 4rem; */
+        /*
+        when all sides don't have the same padding(space)
+         
+         padding: 4rem 3rem 1rem 10rem;
+         */
+
+
+    }
+    #wrapper{
+        /* margin-top: 3rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem; */
+        /* margin: 3rem; */
+        /* margin: 4rem 1rem; */
+        /* margin: 4rem 2rem 6rem 15rem; */
+        margin: 4rem 2rem 6rem ;
+        border: 10px solid red;
+        padding: 4rem;
+        background-color: green;
+        color: #ffffff;
+        width: max-content;
+    }
+   </style>
+
+</head>
+<body>
+    <h1>margin</h1>
+    <div id="wrapper">
+        margin
+    </div>
+    <hr>
+    <h1>padding</h1>
+    <div id="container">
+        multiple padding
+    </div>
+    <div id="box">
+        single padding
+    </div>
+
+    
+</body>
+</html>

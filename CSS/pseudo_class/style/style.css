@@ -1,0 +1,63 @@
+.btn{
+    border: none;
+    padding:0.9rem 3rem ;
+    background-image: linear-gradient(to right, red,orange);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, cyan,purple);
+    padding-inline: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: rgb(223, 22, 56);
+}
+
+ul li{
+    list-style: none;
+    padding-block: 0.5rem;
+    background-color: red;
+    border-radius: 7px;
+    margin-top: 1rem;
+    color: white;
+    padding-left: 1rem;
+    cursor: no-drop;
+
+}
+
+ul li:first-child{
+    background-image: radial-gradient(orange,pink,purple);
+}
+
+ul li:last-child{
+    background-image: conic-gradient(red,orange,indigo,green,blue,yellow,violet);
+}
+
+ul li:nth-child(4){
+    background-image: linear-gradient(red,orange,indigo,green,blue,yellow,violet);
+}
+
+ul li:nth-child(2){
+    background-image: linear-gradient(to top right,blue,yellow,violet);
+}
+
+ul li:hover{
+    background-color: blue;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./login .css">
+    <title>form</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+#form{
+    /* background-color: red; */
+    font-family: helvetica;
+    max-width: 340px;
+    margin-inline: auto;
+    padding-inline: 3rem;
+    margin-top: 8rem;
+}
+#form .form-input{
+    margin-top: 1.4rem;
+    position: relative;
+}
+
+#form label{
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    display: flex;
+    text-transform: capitalize;
+    background-color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+#form input{
+    width: 95%;
+    display: flex;
+    padding-block: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding-left: 1rem;
+    caret-color: blue;
+    /* outline: 0; */
+    outline-color: blue;
+
+}
+.name-container{
+    display: flex;
+    gap: 2rem;
+}
+    </style>
+</head>
+<body>
+    <div class="h1">
+        create an account
+    </div>
+     <form id="form">
+       <div class="name-container">
+         <div class="form-input">
+            <label >first name </label>
+            <input type="letter" placeholder="e.g.howard">
+        </div>
+        <div class="form-input">
+            <label>last name</label>
+            <input type="letter" placeholder="e.g.thurman">
+        </div>
+       </div>
+        <div class="form-input">
+            <label>email</label>
+            <input type="email" placeholder="e.g. howard.thurman@gmail.com">
+        </div>
+          <div class="form-input">
+            <label>password</label>
+            <input type="password">
+        </div>  <div class="form-input">
+             <button class="submit" type="submit">Log in</button>
+        <p class="account">Need an account ?<span>sign up</span></p>
+           
+      
+        
+    </form>
+</body>
+</html>

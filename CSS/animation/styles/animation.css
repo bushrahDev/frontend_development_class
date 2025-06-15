@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: black;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-image:linear-gradient(to left, red,green,blue,orange,pink,indigo);
+    animation-name: motion;
+    animation-duration: 1s;
+    position: relative;
+    border-radius: 50%;
+    /* animation-delay: 5s; */
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-out; */
+}
+
+@keyframes motion{
+    0%{background-image:linear-gradient(to right, red,green,blue,orange,pink,indigo); left: 0; top: 0; }
+    25%{background-image:conic-gradient(red,green,blue,orange,pink,indigo); left: 700px; top:0}
+    50%{background-image:radial-gradient(red,green,blue,orange,pink,indigo);  left: 700px; top:350px}
+    75%{background-image:linear-gradient(to top left, red,green,blue,orange,pink,indigo);  left: 0; top:350px}
+    100%{background-image:linear-gradient(to right, red,green,blue,orange,pink,indigo);left: 0; top:0}
+}

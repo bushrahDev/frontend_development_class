@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        .boxes{
+            background-image: linear-gradient(red,orange);
+            border-radius: 12px;
+            color: white;
+            display: flex;
+            justify-content:
+            space-evenly
+            /* space-around */
+            /* space-between */
+            ;
+            /* gap: 3rem; */
+        }
+        #wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: 
+            /* left */
+            /* right */
+            center
+            ;
+            
+            flex-direction: 
+            /* column-reverse */
+            /* row-reverse */
+            row
+            /* column */
+            ;
+            gap: 2rem;
+            align-items: 
+            /* center */
+            /* flex-end */
+            flex-start
+            ;
+        }
+        .wrap{
+            /* width: 25%; */
+            flex-basis: 25%;
+            text-align: center;
+            background-image:conic-gradient(red,green,purple,yellow,pink,blue,black,indigo) ;
+
+            /* background-image: linear-gradient(red,orange); */
+            padding-block: 2rem;
+            padding-inline: 1rem;
+            /* border-radius: 0 3rem 0 3rem; */
+            /* border-radius: 50%; */
+
+        }
+        .wrap h1, .wrap p{
+            background-image: linear-gradient(red,orange);
+
+            /* background-image:conic-gradient(red,green,purple,yellow,pink,blue,black,indigo) ; */
+            background-clip: text;
+            color: transparent;
+
+        }
+       
+
+        .container{
+            display: flex;
+            gap: 1rem;
+            align-items: start;
+
+        }
+        .container img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .container p{
+            font-size: 2rem;
+            border: 2px solid red;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <p>paragraph 3</p>
+        <p>paragraph 4</p>
+    </div>
+
+    <div class="container">
+        <img src="../images//mini_girl.jpg" alt="">
+        <p>Aliyat</p>
+    </div>
+
+    <div id="wrapper">
+        <!-- <div class="wrap">
+            <h1>intelligence 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate blanditiis quis mollitia rem architecto placeat laudantium ipsum incidunt consequuntur, velit tempora ab porro sapiente odio soluta fuga vel neque. Esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div> -->
+        <div class="wrap">
+            <h1>perseverance2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence5</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence6</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence7</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence8</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <!-- <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate blanditiis quis mollitia rem architecto placeat laudantium ipsum incidunt consequuntur, velit tempora ab porro sapiente odio soluta fuga vel neque. Esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div> -->
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+        <div class="wrap">
+            <h1>persistence</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellat libero, fugiat laudantium aspernatur voluptatibus!</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

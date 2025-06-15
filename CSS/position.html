@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text properties</title>
+  <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        background-color: red;
+        color: blue;
+    }
+    .container p{
+        position: relative;
+        font-size: 3rem;
+        text-transform: capitalize;
+        /* top: 120px; */
+        top: -20px;
+        /* left: 300px; */
+        width: max-content;
+        /* right: 100px; */
+        /* bottom:20px; */
+        border: 3px solid green;
+    }
+    .box{
+        height: 600px;
+        position: relative;
+
+    }
+    .box h1{
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        width: max-content;
+
+    }
+    section{
+        height: 600px;
+        background-color: red;
+        margin-top: 5rem;
+    }
+    .content{
+        position: fixed;
+        top: 200px;
+        right: 0px;
+        left: 0px;
+        height: 200px;
+        background-color: blue;
+
+    }
+    .btn{
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        background-color: green;
+        border: none;
+        color: white;
+        border: 10px;
+        padding-inline: 1.7rem;
+        padding-block: 1rem;
+    }
+
+    .description{
+        position: sticky;
+        top: 200px;
+    }
+  </style>
+</head>
+<body>
+    <section class="container">
+        <p>i love coding</p>
+    </section>
+    <section class="box">
+        <h1>coding is fabulos!</h1>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, fugiat.</p>
+    </section>
+    <!-- <div class="content">
+        hello
+    </div> -->
+    <button class="btn">message</button>
+    <section class="wrapper">
+        <p>are you ready</p>
+    </section>
+</body>
+</html>
