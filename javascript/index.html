@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #box{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        #box > div{
+            box-shadow: 2px 2px 10px #ccc;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     hello world
@@ -19,13 +32,13 @@
     </div>
 </body>
 
-<script>
+<script src="index.js">
     console.log('opeyemi')
     // document.querySelector('.tall').innerHTML='ayinla'
     // document.querySelector('.tall').textContent='ayinla'
     document.querySelector('.tall').innerText='ayinla'
     document.querySelector('.short' ).innerHTML='self'
-    document.querySelector('#box').innerText='oyin'
+    // document.querySelector('#box').innerText='oyin'
     document.getElementById('box').textContent='damola'
     console.log('is a good person')
 </script>
