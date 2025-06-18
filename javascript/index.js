@@ -71,8 +71,7 @@ console.log(fridge['brand'])
 // console.log(day)
 
 // const isBad = false
-// console.log(isBad)
-
+console.log(isBad)
 
 
 
